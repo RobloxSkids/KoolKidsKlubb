@@ -1,0 +1,78 @@
+-- creds me fuck NIGGA flow.cc on top discord.gg/flowingaway
+
+getgenv().FlowingAway = {
+    ["Skibidi Luarmor FatBoy"] = { 
+        Script_Key = "Flow_KEYHERE",
+    },
+    ["Start Up"] = { 
+ -- // Sorry, For Ruining Your Life :sad:
+        JumpScare = true,
+        Build = 'V1', -- // V1, V2
+    },
+    ["Preload"] = {
+        Headless = false, -- // Dont Wanna Even Add But I Will
+        Korblox = false -- // Dont Wanna Even Add But I Will
+    },
+    ["Optimize Selections"] = {
+        FramePerSecondBooster = false,
+        LowGraphics = false
+    },
+    ["TargetAim"] = {
+        Keybind = "C",
+        Enabled = true,
+        HitPart = "HumanoidRootPart",
+        AirPart = "Head",  
+        Prediction = 0.12654,
+        Notifications = true
+    },
+    ["Camera Navigation"] = {
+        Enabled = true,
+        HitPart = "HumanoidRootPart",
+        AirPart = "Head",  
+        Smoothness = 0.07,
+        Prediction = 0.1,
+        Style = "Quad",
+        ShakeValue = 0,
+        Direction = "InOut"
+    },
+    ["TriggerBot"] = {
+        Enabled = false,
+        Key = "T",
+        ["Configuration"] = {
+            Prediction = 0.1,
+            Range = 30,
+            UseDelay = false,
+            Delay = 0.05
+        }
+    },
+    ["Spin"] = {
+        Enabled = true,
+        Keybind = "V",
+        Degrees = 360,
+        Speed = 4900
+    },
+    ["Macro"] = {
+        Enabled = true,
+        Keybind = "X",
+        Mode = "ThirdPerson", --// Options: FirstPerson, ThirdPerson
+        Speed = 0.00001
+    },
+    ["BulletRedirection"] = {
+        Enabled = false,
+        ShowFOV = false,
+        FOVSize = 90,
+        DottedFOV = false,
+        Mode = "Mouse", -- // Mouse Or Center
+        HitPart = "HumanoidRootPart",
+        Prediction = 0.12654,
+        ["Visuals"] = {
+            Line = false,
+            Circle = false
+        }
+    },
+    ["Checks"] = {
+        Wall = true,
+        Death = false,
+        Picked = false
+    },
+}
